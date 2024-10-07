@@ -1,0 +1,439 @@
+@media (max-width: 1200px) {
+    main {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-content {
+        align-items: center;
+        margin-bottom: 15%;
+        width: 100%;
+    }
+
+    main .main-content .text,
+    .techs {
+        text-align: center;
+    }
+
+    .descrição {
+        margin: 0 auto;
+    }
+
+    main .main-content .text p {
+        font-size: 0.9em;
+        width: 100%;
+    }
+
+    main .techs .cards .cards-container,
+    .main-content .text p {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    .icon {
+        margin-top: 20px;
+    }
+
+    header h1 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-menu-hamburgue {
+        bottom: 50%;
+        height: 50px;
+        margin-top: 30px;
+        position: relative;
+        right: 0px;
+        top: 50%;
+        width: 50px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 240px;
+        top: 252px;
+        width: 300px;
+    }
+
+    .cards-container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        content: "";
+    }
+}
+
+@media (max-width: 600px) {
+    main .techs .cards-container .card {
+        background-color: #eee;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
+        margin-right: 1.8em;
+        padding: 10px;
+        transition: box-shadow 0.25s ease-in-out;
+        width: 120px;
+        height: 120px;
+    }
+
+    main .techs .cards-container .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 520px) {
+    .descrição-sobre-me {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .techs .cards-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 440px) {
+    main .techs .cards-container .card {
+        background-color: #eee;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
+        margin-right: 1.8em;
+        padding: 10px;
+        transition: box-shadow 0.25s ease-in-out;
+        width: 120px;
+        height: 120px;
+    }
+
+    main .techs .cards-container .card img {
+        width: 80%;
+    }
+
+    main figure img {
+        border-radius: 200px;
+        border: 1px #00eff0 solid;
+        cursor: pointer;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-bottom: 6%;
+        transition: 0.2s ease-in-out;
+        width: 300px;
+    }
+
+    main .main-content h2 {
+        font-size: 1.8em;
+        margin-bottom: 10%;
+    }
+
+    main .main-content .text p {
+        font-size: 1.2em;
+        font-weight: 300;
+        line-height: 1.6;
+        text-align: center;
+        width: 75%;
+    }
+}
+
+@media (max-width: 430px) {
+    .main{
+        display: flex;
+    }
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 60px;
+        top: 252px;
+        width: 300px;
+    }
+
+    .div-molde-projetos {
+        margin: 20px 0px 20px 0px;
+        background-color: #000;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px #00eff0;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 360px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .iframe {
+        border: 20px solid #000;
+        border-radius: 20px;
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .projeto-button {
+        background-color: #00eff0;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1em;
+        width: 340px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .main{
+        display: flex;
+    }
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 50px;
+        top: 252px;
+        width: 300px;
+    }
+
+    .div-molde-projetos {
+        margin: 20px 0px 20px 0px;
+        background-color: #000;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px #00eff0;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 390px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .iframe {
+        border: 20px solid #000;
+        border-radius: 20px;
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .projeto-button {
+        background-color: #00eff0;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1em;
+        width: 340px;
+
+    }
+}
+
+@media (max-width: 412px) {
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 50px;
+        top: 252px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 393px) {
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 50px;
+        top: 252px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 390px) {
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 40px;
+        top: 252px;
+        width: 300px;
+    }
+
+    .div-molde-projetos {
+        margin: 20px 0px 20px 0px;
+        background-color: #000;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px #00eff0;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 360px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .iframe {
+        border: 20px solid #000;
+        border-radius: 20px;
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .projeto-button {
+        background-color: #00eff0;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1em;
+        width: 340px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2%;
+    }
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 35px;
+        top: 252px;
+        width: 300px;
+    }
+
+    .div-molde-projetos {
+        margin: 20px 0px 20px 0px;
+        background-color: #000;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px #00eff0;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 360px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .iframe {
+        border: 20px solid #000;
+        border-radius: 20px;
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .projeto-button {
+        background-color: #00eff0;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1em;
+        width: 340px;
+    }
+}
+
+@media (max-width: 360px) {
+    .menuOpition {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: absolute;
+        right: 26px;
+        top: 252px;
+        width: 300px;
+    }
+    .div-molde-projetos {
+        margin: 20px 0px 20px 0px;
+        background-color: #000;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px #00eff0;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 340px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .iframe {
+        border: 20px solid #000;
+        border-radius: 20px;
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .projeto-button {
+        background-color: #00eff0;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1em;
+        width: 320px;
+    }
+}

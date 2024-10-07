@@ -1,0 +1,24 @@
+.container-neve {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    opacity: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.floco-de-neve {
+    animation: fall var(--duracao) infinite var(--atraso);
+    background-color: #fff;
+    border-radius: 50%;
+    height: 6px;
+    position: relative;
+    width: 6px;
+}

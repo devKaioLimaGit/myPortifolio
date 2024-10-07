@@ -1,0 +1,244 @@
+.botão-menu {
+    background-color: #00eff0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #00eff0;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 1em;
+    width: 90%;
+}
+
+.descrição {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.descrição-projeto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.descrição-sobre-me {
+    width: 100%;
+}
+
+.div-molde-projetos {
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #00eff0;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    position: relative;
+    z-index: 1;
+}
+
+.iframe {
+    border: 20px solid #000;
+    border-radius: 20px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.fundo {
+    background-color: black;
+    height: 100vh;
+    opacity: 80%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.imagem-show {
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding: 2%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.main-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 2%;
+}
+
+.main-content .text {
+    margin-bottom: 10%;
+}
+
+.main-content .text p {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2.2;
+    text-align: justify;
+    width: 75%;
+}
+
+.menuOpition {
+    align-items: center;
+    background-color: #000;
+    box-shadow: 0px 0px 8px #00eff0;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 112px;
+    width: 300px;
+    z-index: 1;
+}
+
+.projeto-button {
+    background-color: #00eff0;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 1em;
+    width: 560px;
+}
+.techs{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.techs h2 {
+    margin-bottom: 50px;
+}
+
+.techs .cards-container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.techs .cards-container .card {
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #00eff0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-right: 1.8em;
+    padding: 10px;
+    transition: box-shadow 0.25s ease-in-out;
+    width: 120px;
+    height: 120px;
+}
+
+.techs .cards-container .card:hover {
+    box-shadow: 0px 0px 8px #00eff0;
+    transition: 10s ease-in-out;
+}
+
+.techs .cards-container .card img {
+    width: 80%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #222;
+}
+
+#button-download {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+#button-download button {
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #00eff0;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 1em 0em 2em 0em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+#button-download button:hover {
+    background-color: white;
+    color: #222;
+    transition: 1s ease-in-out;
+}
+
+main {
+    align-items: center;
+    background-image: url(../img/compass.jpg);
+    background-position: center, center, center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+}
+
+main figure {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main figure img {
+    border: 1px #00eff0 solid;
+    border-radius: 200px;
+    cursor: pointer;
+    height: 400px;
+    margin-bottom: 6%;
+    transition: 0.2s ease-in-out;
+    width: 400px;
+}
+
+main figure img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 6px #00eff0;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+main .techs .cards-container .card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}

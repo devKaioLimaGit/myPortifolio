@@ -3,3 +3,10 @@ This project is about my professional portfolio, where I showcase my hosted proj
 ![Movie Site Screenshot](Imagens%20para%20README/1.png)
 
 ![Movie Site Screenshot](Imagens%20para%20README/2.png)
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/devKaioLimaGit/myPortifolio.git
+   ```
